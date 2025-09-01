@@ -1,0 +1,6 @@
+# 忽略所有数据文件夹
+part1_data/
+part2_data/
+part3_data/
+part4_data/
+artifacts/
