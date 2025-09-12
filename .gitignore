@@ -1,23 +1,10 @@
-# Ignore data folders and files
-external_data/
-part1_data/
-part2_data/
-part3_data/
-part4_data/
-*.parquet
-*.csv
-*.shp
-*.dbf
-*.prj
-*.shx
-*.xml
+# 忽略所有文件
+*
 
-# Ignore system files
-.DS_Store
-.ipynb_checkpoints/
-# Ignore folders
-external_data/
+# 但保留 gitignore 自己
+!.gitignore
 
-# Ignore system files
-.DS_Store
-.ipynb_checkpoints/
+# 允许 notebooks
+!external_data.ipynb
+!part1.ipynb
+!part234.ipynb
